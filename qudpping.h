@@ -35,5 +35,8 @@ private:
     QElapsedTimer* timer;
     qint64 t;
     QByteArray data;
+
+    quint64 sent;
+    quint64 received;
 };
 #endif // QUDPPING_H
